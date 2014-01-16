@@ -1,0 +1,41 @@
+{
+  "name": "sails-mssql",
+  "version": "0.1.0",
+  "description": "MSSQL Adapter for Sails.js",
+  "main": "lib/adapter.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sergeibelov/sails-mssql.git"
+  },
+  "keywords": [
+    "orm",
+    "waterline",
+    "sails",
+    "sailsjs",
+    "sails.js",
+    "mssql"
+  ],
+  "author": {
+    "name": "Sergei Belov <sergeibelov@gmail.com>"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "async": "~0.2.9",
+    "underscore": "~1.5.2",
+    "underscore.string": "~2.3.3",
+    "mssql": "~0.4.3"
+  },
+  "devDependencies": {
+    "mocha": "1.10.0",
+    "waterline-adapter-tests": "~0.9.4",
+    "async": "0.2.9"
+  },
+  "readme": "![image_squidhome@2x.png](http://i.imgur.com/RIvu9.png) \n\n# MSSQL server adapter for Sails.js",
+  "bugs": {
+    "url": "https://github.com/sergeibelov/sails-mssql/issues"
+  },
+  "_id": "sails-mssql@0.1.0",
+  "_from": "sails-mssql@"
+}
