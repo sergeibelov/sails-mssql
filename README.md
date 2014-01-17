@@ -38,7 +38,12 @@ adapters: {
     user: 'sample',
     password: 'secret', 
     database: 'sailsdb',
-    timeout: 5000
+    timeout: 5000,
+    pool: {
+      min: 0,
+      max: 10,
+      idleTimeout: 30000
+    }
   }
 }
 ```

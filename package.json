@@ -1,6 +1,6 @@
 {
   "name": "sails-mssql",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "MSSQL Adapter for Sails.js",
   "main": "lib/adapter.js",
   "scripts": {},
@@ -32,10 +32,10 @@
     "waterline-adapter-tests": "~0.9.4",
     "async": "0.2.9"
   },
-  "readme": "![image_squidhome@2x.png](http://i.imgur.com/RIvu9.png) \n\n# MSSQL server adapter for Sails.js",
+  "readme": "![image_squidhome@2x.png](http://i.imgur.com/RIvu9.png) \n\n# Microsoft SQL Server Adapter for Sails.js",
   "bugs": {
     "url": "https://github.com/sergeibelov/sails-mssql/issues"
   },
-  "_id": "sails-mssql@0.1.0",
+  "_id": "sails-mssql@0.1.1",
   "_from": "sails-mssql@"
 }
