@@ -15,7 +15,7 @@ npm install sails-mssql
 ```
 
 ## Configuration
-__Basic Options__
+__Minimal__
 ```javascript
 adapters: {
   'default': 'mssql',
@@ -27,7 +27,7 @@ adapters: {
   }
 }
 ```
-__Advanced Options__
+__Full__
 ```javascript
 adapters: {
   'default': 'mssql',
@@ -47,6 +47,17 @@ adapters: {
   }
 }
 ```
+## Configuration Details
+
+* **host** - Database server host name (default: localhost).
+* **port** - Database server port (default: 1433).
+* **user** - User name to use for authentication.
+* **password** - Password to use for authentication.
+* **database** - Database name.
+* **timeout** - Database connection timeout in milliseconds (default: 5000).
+* **pool.min** - The minimum number of connections in the connection pool (default: 0).
+* **pool.max** - The maximum number of connections in the connection pool (default: 10).
+* **pool.idleTimeout** - Timeout (in milliseconds) before unused connections are closed (default: 30000).
 
 ## License
 
