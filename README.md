@@ -3,11 +3,11 @@
 # sails-mssql [![NPM version](https://badge.fury.io/js/sails-mssql.png)](http://badge.fury.io/js/sails-mssql)
 Microsoft SQL Server Adapter for Sails.js
 
-* Works with SQL Server 2005 and later
-* Tested with SQL Server 2005 and SQL Server 2008
-* Pooled connections
-* Compatible with Sails.js 0.9.x
-* Works on windows/osx/linux
+## Compatibility
+
+* SQL Server 2005 and later (tested with SQL Server 2005 and SQL Server 2008)
+* Sails.js 0.9.x
+* Windows/OSX/Linux
 
 ## Installation
 ```sh
