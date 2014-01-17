@@ -5,7 +5,7 @@ Microsoft SQL Server Adapter for Sails.js
 
 * Works with SQL Server 2005 and later
 * Tested with SQL Server 2005 and SQL Server 2008
-* Pooled database connections
+* Pooled connections
 * Compatible with Sails.js 0.9.x
 * Works on windows/osx/linux
 
